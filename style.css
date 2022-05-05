@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+h1 {
+    margin: 4%;
+    font-size: 40px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    transition: 2s;
+    text-align: center;
+    font-family: 'Bangers';
+    letter-spacing: 0.5rem;
+}
+
+#resultsDisplay {
+    font-size: 45px;
+}
+
+#winOrLose {
+    font-size: 70px;
+}
+
+#drawPic {
+    width: 300px;
+}
+
+#winPic {
+    width: 300px
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    font-family: "Bangers";
+    border-radius: 20px;
+    margin: 1%;
+}
+
+button:hover {
+    background-color: goldenrod;
+    cursor: pointer;
+    transition: 1s;
+    width: 200px;
+    
+}
+
+/* Tablet */
+
+@media (min-width: 481px) and (max-width: 768px) {
+    input{
+        width: 250px;
+    }
+
+}
+
+/* Mobile */
+
+
+@media (max-width: 480px) {
+    #losePic, #drawPic, #winPic {
+        width: 250px;
+    }
+
+    input{
+        width: 200px;
+    }
+}
